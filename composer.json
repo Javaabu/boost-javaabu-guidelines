@@ -1,37 +1,27 @@
 {
-    "name": "javaabu/{your-package}",
-    "description": "{package description}",
-    "homepage": "https://github.com/Javaabu/{your-package}",
+    "name": "javaabu/boost-javaabu-guidelines",
+    "description": "Javaabu's Laravel & PHP coding guidelines for Laravel Boost",
+    "homepage": "https://github.com/Javaabu/boost-javaabu-guidelines",
     "license": "MIT",
     "keywords": [
         "javaabu",
         "laravel",
-        "{your_package}"
+        "boost_javaabu_guidelines"
     ],
     "authors": [
         {
-            "name": "{author_name}",
-            "email": "{author_email}",
+            "name": "Arushad Ahmed",
+            "email": "arushad@javaabu.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^11.0 || ^12.0 || ^13.0"
-    },
-    "require-dev": {
-        "laravel/pint": "^1.14",
-        "orchestra/testbench": "^9.16 || ^10.0 || ^11.0",
-        "phpunit/phpunit": "^11.5.3 || ^12.5.8 || ^13.0.3"
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0 || ^13.0"
     },
     "autoload": {
         "psr-4": {
-            "Javaabu\\{YourPackage}\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Javaabu\\{YourPackage}\\Tests\\": "tests/"
+            "Javaabu\\BoostJavaabuGuidelines\\": "src/"
         }
     },
     "extra": {
@@ -40,7 +30,7 @@
         },
         "laravel": {
             "providers": [
-                "Javaabu\\{YourPackage}\\{YourPackage}ServiceProvider"
+                "Javaabu\\BoostJavaabuGuidelines\\BoostJavaabuGuidelinesServiceProvider"
             ]
         }
     },

@@ -1,46 +1,38 @@
-# {Your Package}
+# Boost Javaabu Guidelines
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/{your-package}.svg?style=flat-square)](https://packagist.org/packages/javaabu/{your-package})
-[![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/run-tests.yml)
-![Code Coverage Badge](./.github/coverage.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/{your-package}.svg?style=flat-square)](https://packagist.org/packages/javaabu/{your-package})
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/boost-javaabu-guidelines.svg?style=flat-square)](https://packagist.org/packages/javaabu/boost-javaabu-guidelines)
+[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/boost-javaabu-guidelines.svg?style=flat-square)](https://packagist.org/packages/javaabu/boost-javaabu-guidelines)
 
----
-## Instructions
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
-1. Press the "Use this template" button on the top right corner of this repo to create a new repo with the contents of this skeleton.
-2. Run `php ./init.php` to run a script that will replace all placeholders throughout all the files.
-3. If nothing works, ask Arushad.
-
-Or you can delete `./init.php` and manually replace the below placeholders:
-- {package description}
-- {your-package} // Package name
-- {your_package} // Package key words
-- {Your Package} // Package title
-- {YourPackage} // Package class name
-- {author_name} // Package author name
-- {author_email} // Package author email
-- {Contributor} // Package author link
----
 
 ## Introduction
-{package description}
 
-## Documentation
+Javaabu's Laravel & PHP coding guidelines for Laravel Boost
 
-You'll find the documentation on [https://docs.javaabu.com/docs/{your-package}](https://docs.javaabu.com/docs/{your-package}).
+## Installation
 
-Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving this package? Feel free to create an [issue](../../issues) on GitHub, we'll try to address it as soon as possible.
+Install the package via Composer:
 
-If you've found a bug regarding security please mail [info@javaabu.com](mailto:info@javaabu.com) instead of using the issue tracker.
+```bash
+composer require javaabu/boost-javaabu-guidelines --dev
+```
 
+Then install the guidelines with Boost:
 
-## Testing
+```bash
+php artisan boost:install
+```
 
-You can run the tests with
+## Usage
 
-``` bash
-./vendor/bin/phpunit
+Once installed, AI assistants using Laravel Boost will automatically reference these guidelines when generating code. No additional configuration needed!
+
+## Keeping Guidelines Up to Date
+
+Re-run the Boost installer after updating the package to refresh guidelines:
+
+```bash
+composer update javaabu/boost-javaabu-guidelines
+php artisan boost:update
 ```
 
 ## Changelog
@@ -59,7 +51,6 @@ If you discover any security related issues, please email [info@javaabu.com](mai
 
 - [Javaabu Pvt. Ltd.](https://github.com/javaabu)
 - [Arushad Ahmed (@dash8x)](http://arushad.com)
-- {Contributor}
 - [All Contributors](../../contributors)
 
 ## License
