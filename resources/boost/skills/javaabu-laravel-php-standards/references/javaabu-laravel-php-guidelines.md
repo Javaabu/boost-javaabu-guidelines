@@ -237,6 +237,7 @@ Validator::extend('organisation_type', function ($attribute, $value) {
 - For admin controller tests, user `adminGet`, `adminPost`, etc, instead of normal `get`, `post` methods
 - Use `$this->setFakeSetting('setting_name', 'setting_value')` to mock fake settings where `get_setting` method is used
 - Prefer database assertions over model assertions
+- Prefer `assertEqual` over `assertSame`
 
 ```php
 <?php
