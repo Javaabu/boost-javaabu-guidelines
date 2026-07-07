@@ -238,6 +238,7 @@ Validator::extend('organisation_type', function ($attribute, $value) {
 - Use `$this->setFakeSetting('setting_name', 'setting_value')` to mock fake settings where `get_setting` method is used
 - Prefer database assertions over model assertions
 - Prefer `assertEquals` over `assertSame`
+- When testing, ensure that the database being used in the test environment is the one specified in the phpunit.xml file. 
 
 ```php
 <?php
